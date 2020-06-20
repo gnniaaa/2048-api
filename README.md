@@ -38,6 +38,13 @@ class YourOwnAgent(Agent):
         return direction
 
 ```
+# run
+*run trainRNN.py or zaixian2048.py or zaixian256.py to obtain model
+*run evaluate.py to get score
+*testAgent can be changed
+  MyAgent1:single model
+  MyAgent2:multiple models to vote
+  MyAgent3:2 models individually used under 258 and above 256
 
 # To compile the pre-defined ExpectiMax agent
 
@@ -51,7 +58,7 @@ make
 ```bash
 python webapp.py
 ```
-![demo](preview2048.gif)
+
 
 # LICENSE
 The code is under Apache-2.0 License.
